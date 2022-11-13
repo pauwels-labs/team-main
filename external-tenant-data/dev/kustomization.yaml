@@ -4,7 +4,7 @@ namespace: pauwels-labs-main
 resources:
 - ../base
 patches:
-- path: patch-external-config-data.yaml
+- path: patch-external-tenant-data.yaml
   target:
-    name: external-config-data
+    name: external-tenant-data
     kind: ConfigMap

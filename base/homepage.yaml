@@ -17,4 +17,6 @@ spec:
   postBuild:
     substituteFrom:
     - kind: ConfigMap
-      name: external-config-data
+      name: external-infra-data
+    - kind: ConfigMap
+      name: external-tenant-data
