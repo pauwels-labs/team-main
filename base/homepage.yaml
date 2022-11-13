@@ -8,7 +8,7 @@ spec:
   serviceAccountName: pauwels-labs-main
   sourceRef:
     kind: GitRepository
-    name: github-pauwels-labs-team-main
+    name: github-pauwels-labs-homepage
   path: ./deploy
   prune: true
   wait: true
