@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
 - ../base
 patchesStrategicMerge:
-- patch-external-config-data.yaml
+- patch-external-tenant-data.yaml
