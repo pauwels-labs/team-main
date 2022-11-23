@@ -6,6 +6,7 @@ metadata:
 spec:
   interval: 1m0s
   serviceAccountName: pauwels-labs-main
+  targetNamespace: "${tenantnamespaceprefix}pauwels-labs-main"
   sourceRef:
     kind: GitRepository
     name: github-pauwels-labs-team-main
