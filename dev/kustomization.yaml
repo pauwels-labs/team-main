@@ -2,8 +2,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../workload
-patches:
-- patch: ../external-tenant-data/dev.yaml
-  target:
-    name: eternal-tenant-data
-    kind: ConfigMap
+patchesStrategicMerge:
+- ../external-tenant-data/dev.yaml
