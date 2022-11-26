@@ -3,5 +3,3 @@ kind: Kustomization
 resources:
 - external-tenant-data.yaml
 - externalsecret-ssh-pauwels-labs-main-github-pauwels-labs-homepage.yaml
-- gitrepository-homepage.yaml
-- homepage.yaml
